@@ -1,0 +1,6 @@
+[      
+	{"name":"SDDemo_SDK", "desc":"Sales & Distribution demo from SDK", "totalFiles":18},
+	{"name":"SampleGoodsReceipt", "desc":"Sample Goods Receipt solution", "totalFiles":4},
+	{"name":"PMDemo_SDK", "desc":"Plant Maintenance demo from SDK ", "totalFiles":13},
+	{"name":"CreateMaterial_SDK", "desc":"Create Material demo from SDK", "totalFiles":2}
+]
