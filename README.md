@@ -31,3 +31,6 @@
   {"name":"CompanyLogo.png"}
 ]
 ```
+
+<h3>Preview.PNG</h3>
+<p>Want to show a preview of what your solution looks like? Include a <strong>Preview.PNG</strong> file in your zipped script folder. This can be very helpful for a developer to get an idea of what your solution should look like without having to download the files.</p>
