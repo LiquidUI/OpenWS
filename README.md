@@ -34,3 +34,11 @@
 
 <h3>Preview.PNG</h3>
 <p>Want to show a preview of what your solution looks like? Include a <strong>Preview.PNG</strong> file in your zipped script folder. This can be very helpful for a developer to get an idea of what your solution should look like without having to download the files.</p>
+
+<h4>Disclaimer</h4>
+<p>The content provided in this repository is for general educational purposes only. Synactive Inc does not warrant the accuracy or completeness of any information contained within this repository. It may be advisable for you to consult with a professional to get advice that applies to your specific implementation.</p>
+
+<p>SAP and all SAP logos are trademarks or registered trademarks of SAP AG in Germany and in several other countries. All other product and service names mentioned are the trademarks of their respective companies.</p>
+
+<p>© 2017 Synactive Inc. All Right Reserved</p>
+
