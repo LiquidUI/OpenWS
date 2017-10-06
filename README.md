@@ -15,7 +15,7 @@
 <p>Not familiar with Github? No problem, we have developed a SAP GUI interface! This will allow you to download modules with one click from within SAP GUI. You can even activate the modules immediately after they are download to try them out. All you need are three files (init_OpenWS.sjs, wscurl.dll, wsoffice.dll). Email us at support@guixt.com and we will give the files and help you get set up.</p>
 
 <h2>Contributing to OpenWS</h2>
-<p>To be a truly great community, Liquid UI welcomes its developers with different experiences. We believe a diverse and friendly community will have more great ideas, more unique perspectives, and produce more great code. Therefore, contributions to OpenWS are welcomed and encouraged! We will work diligently to make the Liquid UI community welcoming to everyone.</p> 
+<p>In an endeavor to become a profoundly eminent community, Liquid UI embraces developers with different and unique experiences. We truly believe that a diverse, amiable and a benevolent community will hold more fresh ideas, various unique perspectives, and produce more great code. Therefore, contributions to OpenWS are welcomed and encouraged! We will work diligently to make the Liquid UI community welcoming for everyone.</p> 
 
 <p>To upload your own module to OpenWS, zip up your scripts folder and email us at support@guixt.com with the attachment. These scripts will be reviewd by one of our Support Engineers to ensure they are up to Liquid UI's standards. The module can be a current solution your company is using, a solution you have developed just for fun, or even just some demo screens, illustrating the possibilities of Liquid UI WS.</p>
 
