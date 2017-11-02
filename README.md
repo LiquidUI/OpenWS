@@ -12,7 +12,7 @@
 <p>Click on the file you want to download. On the top right, click the "Raw" button. Lastly, right click on the webpage and click Save As to save the file with whatever name you'd like. Once you have downloaded all the files for the module, set your script directory, in the guixt.sjs configuration file, to point the the newly downloaded scripts and try them out.</p>
 
 <h3>OpenWS Through SAP GUI</h3>
-<p>Not familiar with Github? No problem, we have developed a SAP GUI interface! This will allow you to download modules with one click from within SAP GUI. You can even activate the modules immediately after they are download to try them out. All you need are three files (init_OpenWS.sjs, wscurl.dll, wsoffice.dll). Email us at support@guixt.com and we will give the files and help you get set up.</p>
+<p>Not familiar with Github? No problem, we have developed a SAP GUI interface! This will allow you to download modules with one click from within SAP GUI. You can even activate the modules immediately after they are download to try them out. All you need are two files: init_OpenWS.sjs and wscurl.dll. Email us at support@guixt.com and we will give the files and help you get set up.</p>
 
 <h2>Contributing to OpenWS</h2>
 <p>In an endeavor to become a profoundly eminent community, Liquid UI embraces developers with different and unique experiences. We truly believe that a diverse, amiable and a benevolent community will hold more fresh ideas, various unique perspectives, and produce more great code. Therefore, contributions to OpenWS are welcomed and encouraged! We will work diligently to make the Liquid UI community welcoming for everyone.</p> 
