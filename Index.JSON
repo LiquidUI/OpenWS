@@ -3,5 +3,5 @@
 	{"name":"SampleGoodsReceipt", "desc":"Sample Goods Receipt solution", "totalFiles":4},
 	{"name":"PMDemo_SDK", "desc":"Plant Maintenance demo from SDK", "totalFiles":13},
 	{"name":"CreateMaterial_SDK", "desc":"Create Material demo from SDK", "totalFiles":2},
-	{"name":"Equipment FactSheet Demo", "desc":"Demo solution for equipment lookup. Scripts can be used for mobile devices too.", "totalFiles":8}
+	{"name":"Equipment_FactSheet_Demo", "desc":"Demo solution for equipment lookup. Scripts can be used for mobile devices too.", "totalFiles":8}
 ]
