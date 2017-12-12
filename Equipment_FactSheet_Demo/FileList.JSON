@@ -1,7 +1,7 @@
 [
   {"name":"ESESSION.sjs"},
   {"name":"genericFunctions.sjs"},
-  {"name":"IE03Functions.E0100.sjs"},
+  {"name":"IE03Functions.sjs"},
   {"name":"MENUS000.E0040.sjs"},
   {"name":"SAPLCOIH.E3000.sjs"},
   {"name":"SAPLIQS0.E7200.sjs"},
