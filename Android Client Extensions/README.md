@@ -4,8 +4,6 @@
 
 This guide explains how to **create, configure, test, and submit** extensions that let the LUI Android client launch external app activities (via Android Intents) directly from the LUI UI.
 
----
-
 ## 1) What are “Extensions”?
 
 Extensions are entries configured inside the LUI app that define:
@@ -16,15 +14,11 @@ Extensions are entries configured inside the LUI app that define:
 
 Invalid or unresolvable intents are visually highlighted in the LUI Extensions screen.
 
----
-
 ## 2) Pre‑requisites
 
 - Android device with the latest **LUI** app installed from Play Store.
 - The target app you wish to integrate must be installed and its activity must be **exported**/resolvable.
 - Access to the **Extensions** screen (requires a password — see below).
-
----
 
 ## 3) Open the Extensions Screen (Insider / gated)
 
@@ -34,8 +28,6 @@ Invalid or unresolvable intents are visually highlighted in the LUI Extensions s
 4. The **Extensions** dialog opens, showing the current list.
 
 > Tip: Items with a red background indicate an intent that failed to resolve on this device (usually a bad package/activity).
-
----
 
 ## 4) Add an Extension (Form Mode)
 
@@ -47,8 +39,6 @@ Invalid or unresolvable intents are visually highlighted in the LUI Extensions s
    - **intent** — the exported Activity *name or path* to launch (e.g., `MainActivity`).  
    - **value** — enable (checked = `true`) or disable (`false`) this entry.
 3. Tap **Done**, then **Save**.
-
----
 
 ## 5) Add or Edit in **Advanced (JSON) Mode**
 
@@ -91,8 +81,6 @@ Use Advanced if you want full control or to bulk‑edit several entries via JSON
 > **Categories currently supported**: `popmenu` (for new items) plus predefined `ai`, `scan`, `ocr`, `ar`, `rfid`.  
 > **Planned**: `cmenu` (context menu), `smenu` (system menu), `pb` (push button), `pbmenu` (push button menu).
 
----
-
 ## 6) Example: Launch Chrome’s Main Activity
 
 ```json
@@ -111,8 +99,6 @@ Use Advanced if you want full control or to bulk‑edit several entries via JSON
 
 > Adjust `send-key` / `receive-key` according to the IPC your target app expects/returns.
 
----
-
 ## 7) Test Your Extension
 
 1. After saving, navigate to **any transaction input field** inside LUI.  
@@ -124,14 +110,10 @@ Troubleshooting:
 - If the item appears with a **red background** in the Extensions dialog, check `package` and `intent`.  
 - Make sure the target activity is **exported** and the app is installed.
 
----
-
 ## 8) Remove an Extension
 
 1. In **Extensions**, **long‑press** the list item you want to delete.  
 2. Confirm **Yes** to remove.  
-
----
 
 ## 9) Data Exchange (IPC) Notes
 
@@ -140,8 +122,6 @@ Troubleshooting:
 - **receive-action** controls how LUI uses the response (`"0"`, `"1"`, `"2"` — choose based on desired UI behavior).
 
 > For predictable UX, document your app’s required extras and returned payload shape in your PR.
-
----
 
 ## 10) Contributor Workflow (Recommended)
 
@@ -154,14 +134,10 @@ Troubleshooting:
 
 Version your extension docs with a `version:` note and keep a **changelog** of edits.
 
----
-
 ## 11) Security & Access
 
 - The **password gate** protects the Extensions screen from casual edits. Do not publish the password in public repos.  
 - Avoid declaring intents that escalate privileges or access sensitive user data. Follow the target app’s security guidelines.
-
----
 
 ## 12) FAQ
 
@@ -174,8 +150,6 @@ A: The intent is not resolvable on this device—verify `package`/`intent`, and 
 **Q: Can I add my own categories?**  
 A: Currently, contributors should use `popmenu`. Additional categories are planned; watch release notes.
 
----
-
 ## 13) Appendix: Quick Checklist
 
 - [ ] Package installed & activity exported  
@@ -186,6 +160,18 @@ A: Currently, contributors should use `popmenu`. Additional categories are plann
 - [ ] PR includes JSON, test steps, and target‑app notes
 
 ---
+
+<h4>Contributing to Liquid UI Platform</h4>
+
+<p>Contributions are welcome! Developers can submit new modules, demos, or enhancements.</p>
+
+<p>Steps:</p>
+<ol>
+  <li>Zip your work.</li>
+  <li>Email to <strong>support@guixt.com</strong>.</li>
+</ol>
+
+<p>Our engineers will review submissions to ensure compliance with Liquid UI standards.</p>
 
 <h4>Disclaimer</h4>
 <p>The content provided in this repository is for general educational purposes only. Synactive Inc does not warrant the accuracy or completeness of any information contained within this repository. It may be advisable for you to consult with a professional to get advice that applies to your specific implementation.</p>
