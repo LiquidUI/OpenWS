@@ -26,18 +26,6 @@
   <li>To try any of these, you will need <a href="https://play.google.com/store/apps/details?id=com.guixt.liquidui.android&hl=en_US" target="_blank">Liquid UI Client for SAP</a></li>
 </ul>
 
-<h2>Contributing to Liquid UI Platform</h2>
-
-<p>Contributions are welcome! Developers can submit new modules, demos, or enhancements.</p>
-
-<p>Steps:</p>
-<ol>
-  <li>Zip your work.</li>
-  <li>Email to <strong>support@guixt.com</strong>.</li>
-</ol>
-
-<p>Our engineers will review submissions to ensure compliance with Liquid UI standards.</p>
-
 ---
 
 <h4>Disclaimer</h4>
