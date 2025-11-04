@@ -1,0 +1,86 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zebra.rfid.demo.sdksample.MainActivity">
+
+
+
+    <item
+        android:id="@+id/enableImpinjProtect"
+        android:orderInCategory="100"
+        android:title="enableImpinjProtect"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/enableImpinjVisiblity"
+        android:orderInCategory="100"
+        android:title="enableImpinjVisiblity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/disableImpinjVisiblity"
+        android:orderInCategory="100"
+        android:title="disableImpinjVisiblity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/disableImpinjProtect"
+        android:orderInCategory="100"
+        android:title="disableimpinjProtect"
+        app:showAsAction="never" />
+    <!--  <item
+          android:id="@+id/readReserveMB"
+          android:orderInCategory="100"
+          android:title="readReserveMB"
+          app:showAsAction="never" />
+      <item
+          android:id="@+id/writeReserveMB"
+          android:orderInCategory="100"
+          android:title="writeReserveMB"
+          app:showAsAction="never" />-->
+    <item
+        android:id="@+id/tagFocus"
+        android:orderInCategory="100"
+        android:title="tagFocus"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/singulation"
+        android:orderInCategory="100"
+        android:title="Singulation"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/tagQuiet"
+        android:orderInCategory="100"
+        android:title="tagQuiet"
+        app:showAsAction="never" />
+
+<!--    <item-->
+<!--        android:id="@+id/removetagQuiet"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="removetagQuiet"-->
+<!--        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/prefilter"
+        android:title="Prefilter"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+<!--    <item-->
+<!--        android:id="@+id/antenna_settings"-->
+<!--        android:title="@string/antenna_settings"-->
+<!--        app:showAsAction="never" />-->
+<!--    <item-->
+<!--        android:id="@+id/Singulation_control"-->
+<!--        android:title="@string/Singulation_control"-->
+<!--        app:showAsAction="never" />-->
+
+
+
+<!--   <item-->
+<!--        android:id="@+id/Default"-->
+<!--        android:title="@string/Defaults"-->
+<!--        app:showAsAction="never" />-->
+
+
+</menu>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SDKSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="antenna_settings">Antenna_Settings</string>
+    <string name="Singulation_control">Singulation-control</string>
+    <string name="Defaults">Defaults</string>
+    <string-array name="pre_filter_action_array">
+        <item>INV A NOT INV B OR ASRT SL NOT DSRT SL</item>
+        <item>INV A OR ASRT SL</item>
+        <item>NOT INV B OR NOT DSRT SL</item>
+        <item>INV A2BB2A NOT INV A OR NEG SL NOT ASRT SL</item>
+        <item>INV B NOT INV A OR DSRT SL NOT ASRT SL</item>
+        <item>INV B OR DSRT SL</item>
+        <item>NOT INV A OR NOT ASRT SL</item>
+        <item>NOT INV A2BB2A OR NOT NEG SL</item>
+    </string-array>
+
+    <string-array name="pre_filter_target_options">
+        <item>TARGET_SL</item>
+        <item>TARGET_INVENTORIED_STATE_S0</item>
+        <item>TARGET_INVENTORIED_STATE_S1</item>
+        <item>TARGET_INVENTORIED_STATE_S2</item>
+        <item>TARGET_INVENTORIED_STATE_S3</item>
+
+    </string-array>
+    <string-array name="inventory_state_array">
+        <item>STATE A</item>
+        <item>STATE B</item>
+        <item>AB FLIP</item>
+    </string-array>
+
+    <string-array name="tagmask_enum">
+        <item> </item>
+        <item>S0B</item>
+        <item>S2B</item>
+        <item>S3B</item>
+        <item>SL_ASSERT</item>
+        <item>S0A</item>
+        <item>S2A</item>
+        <item>S3A</item>
+        <item>SL_DEASSERT</item>
+    </string-array>
+
+    <string-array name="session_array">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="memory_bank_array">
+        <item>USER</item>
+        <item>TID</item>
+        <item>EPC</item>
+
+    </string-array>
+</resources>
