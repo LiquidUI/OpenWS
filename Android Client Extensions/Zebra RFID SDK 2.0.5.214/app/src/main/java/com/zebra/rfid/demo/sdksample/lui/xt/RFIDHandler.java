@@ -1,4 +1,4 @@
-package com.zebra.rfid.demo.sdksample;
+package com.zebra.rfid.demo.sdksample.lui.xt;
 
 import android.os.AsyncTask;
 import android.util.Log;

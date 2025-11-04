@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.zebra.rfid.demo.sdksample">
+    package="com.zebra.rfid.demo.sdksample.lui.xt">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -16,15 +16,17 @@
         android:supportsRtl="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:theme="@style/Theme.AppTheme">
+        <!-- Real activity shows long name in title/recents -->
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.guixt.EXTENSIONS_V2"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

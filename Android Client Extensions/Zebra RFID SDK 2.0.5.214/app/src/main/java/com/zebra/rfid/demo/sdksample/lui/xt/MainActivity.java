@@ -1,10 +1,13 @@
-package com.zebra.rfid.demo.sdksample;
+package com.zebra.rfid.demo.sdksample.lui.xt;
 
 import android.Manifest;
+import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -62,6 +65,27 @@ public class MainActivity extends AppCompatActivity implements RFIDHandler.Respo
         // RFID Handler
         statusTextViewRFID = (TextView) findViewById(R.id.textViewStatusrfid);
         textrfid = (TextView) findViewById(R.id.edittextrfid);
+        String input = "003130302D333030, -63\n" + "30303030304C53532D4B4233, -57\n"
++ "00414D322D313030, -63\n"
++ "00414D322D323030, -60\n"
++ "003130302D323030, -61\n"
++ "003130302D313130, -47\n"
++ "00414D322D343030, -50\n"
++ "003130302D343230, -66\n"
++ "003130302D313330, -71\n"
++ "30388BDBE4BF530000000010, -59\n"
++ "003130302D343330, -64\n"
++ "003130302D343333, -65\n"
++ "003130302D313030, -68\n"
++ "003130302D343130, -74\n"
++ "30388BDBE4BF530000000010, -72\n"
++ "00414D322D323030, -62\n"
++ "00414D322D313030, -65\n"
++ "30303030304C53532D4B4233, -58\n"
++ "00414D322D343030, -55\n"
++ "003130302D313130, -51\n"
++ "003130302D343230, -63";
+        textrfid.setText(input);
         scanResult = (TextView) findViewById(R.id.scanResult);
         tagIdEditText= findViewById(R.id.tagId);
         passwordEditText  = findViewById(R.id.password);
@@ -497,5 +521,16 @@ public class MainActivity extends AppCompatActivity implements RFIDHandler.Respo
             })
             .setNegativeButton("Cancel", null)
             .show();
+    }
+
+    public void backToMainApp(View view) {
+        // Create the result Intent
+        String strRet = textrfid.getText().toString();
+        Intent resultIntent = new Intent();
+        resultIntent.putExtra("metadata", TextUtils.isEmpty(strRet) ? "No Tags" : strRet);
+
+        // Set the result and finish
+        setResult(Activity.RESULT_OK, resultIntent);
+        finish();
     }
 }

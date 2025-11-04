@@ -10,4 +10,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="lui_white">#FFFFFF</color>
+    <color name="lui_black">#000000</color>
+    <color name="lui_gold">#FFFEC417</color>
+    <color name="lui_gold_transparent">#66FEC417</color>
+    <color name="lui_gold_light">#FFFCE4A1</color>
+    <color name="lui_blue">#0078D7</color>
+    <color name="lui_blue_orig">#FF99BAF3</color>
+    <color name="lui_blue_transparent">#665E9BCB</color>
 </resources>

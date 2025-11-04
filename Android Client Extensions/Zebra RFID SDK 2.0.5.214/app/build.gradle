@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
-    namespace 'com.zebra.rfid.demo.sdksample'
+    compileSdkVersion 36
+    namespace 'com.zebra.rfid.demo.sdksample.lui.xt'
     defaultConfig {
-        applicationId "com.zebra.rfid.demo.sdksample"
-        minSdkVersion 26
-        targetSdkVersion 33
+        applicationId "com.zebra.rfid.demo.sdksample.lui.xt"
+        minSdkVersion 28
+        targetSdkVersion 35
         versionCode 1
         versionName "1.0"
     }
